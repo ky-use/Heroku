@@ -14,9 +14,9 @@ public class SForceTest {
 	}
  
 	static void get() {
-		String url = "https://app.salesforce.com/services/data/v44.0/sobjects/Account/0011903JO01";
+		String url = "https://protocomdev-dev-ed.my.salesforce.com/services/apexrest/Case/";
 		String method = "GET";
-		String accessToken = "000A000A0a0A0!QAKAJDSKLNDLAS5215153153AD21312A.LKJHSADLKJAL2465461256151111010000254";
+		String accessToken = "00D5j00000BXmyf!ARUAQPK833GIJYxT_W98Vv.mxrr0JVEGOSkx5bfl.4uHuV14eQUbBz9yikoCl.fHyPoRFQVTyE2JopLO.ptwAD8sshbuAkgY";
 		byte[] result = executeRequest(url
 		, method
 		, null
